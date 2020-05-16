@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AccesDades_BC</name>
+    </assembly>
+    <members>
+        <member name="T:AccesDades_BC.DataAccess">
+            <summary>
+            Data Access
+            </summary>
+        </member>
+        <member name="M:AccesDades_BC.DataAccess.#ctor">
+            <summary>
+            Creem la ConnectionString
+            </summary>
+        </member>
+        <member name="M:AccesDades_BC.DataAccess.Connectar">
+            <summary>
+            CONNECTAR --> Funció que connecta amb la Base de Dades
+            </summary>
+        </member>
+        <member name="M:AccesDades_BC.DataAccess.PortarTaula(System.String)">
+            <summary>
+            PORTAR TAULA --> Funció que retorna un DataSet amb tots els registre de la taula que rep
+            </summary>
+            <param name="nomTaula">Taula que rep i de la que fa la Select</param>
+            <returns>Retorna un DataSet</returns>
+        </member>
+        <member name="M:AccesDades_BC.DataAccess.PortarPerConsulta(System.String)">
+            <summary>
+            PORTAR PER CONSULTA --> Funció que rep una query i retorna un DataSet
+            </summary>
+            <param name="query">Query que rep per perametre</param>
+            <returns>Retorna un DataSet</returns>
+        </member>
+        <member name="M:AccesDades_BC.DataAccess.PortarPerId(System.String,System.String,System.String)">
+            <summary>
+            PORTAR PER ID --> A través d'un ID, retornem un DataSet
+            </summary>
+            <param name="id">ID de la taula que rep per parametre</param>
+            <param name="valor">Valor de la taula que rep per parametre. L'igualem amb el ID dins del WHERE</param>
+            <param name="nomTaula">Nom de la taula que rep per parametre</param>
+            <returns>Retorna un DataSet</returns>
+        </member>
+        <member name="M:AccesDades_BC.DataAccess.Actualitzar(System.String,System.Data.DataSet)">
+            <summary>
+            ACTUALITZAR --> Rep una consulta SQL d'un DataSet i el DataSet Original. 
+            Ha d'actualitzar la Base de Dades amb les noves dades. 
+            </summary>
+            <param name="query">Consulta SQL que rep</param>
+            <param name="dsOriginal">DataSet Original, el que després modifica i actualitza</param>
+            <returns>Retorna el nou DataSet ja actualitzat</returns>
+        </member>
+        <member name="M:AccesDades_BC.DataAccess.Executa(System.String)">
+            <summary>
+            EXECUTA --> Modifica, inserta o elimina directament sobre la Base de Dades
+            </summary>
+            <param name="query">Consulta SQL que rep</param>
+        </member>
+    </members>
+</doc>

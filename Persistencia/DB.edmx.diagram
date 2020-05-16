@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="15d8e8e282a542c0b35cd79d2c0ad3ce" Name="Diagram1">
+        <EntityTypeShape EntityType="XWingsFactoryModel.AssemblyInstructions" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.AssemblyInstructionsDetail" Width="2.625" PointX="7.5" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.FactoryUsers" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.FinalProduct" Width="1.5" PointX="7.5" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.FinalProductDetails" Width="1.5" PointX="12.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.IntermediateProduct" Width="1.5" PointX="10.5" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.LOP" Width="1.5" PointX="3" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.LOPDetails" Width="1.5" PointX="5.25" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.OperationParts" Width="1.5" PointX="10.375" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.Orders" Width="1.5" PointX="0.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.OrdersDetail" Width="1.5" PointX="3" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.References" Width="1.5" PointX="3" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.ReferenceTypes" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.Status" Width="1.5" PointX="5.25" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.StockMovements" Width="1.5" PointX="7.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.StockMovementTypes" Width="1.5" PointX="2.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.Stocks" Width="1.5" PointX="4.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.Structure" Width="1.5" PointX="5.25" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.sysdiagrams" Width="1.5" PointX="9.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.UserTypes" Width="1.5" PointX="11.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.database_firewall_rules" Width="1.5" PointX="11.75" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="XWingsFactoryModel.FK_AssemblyInstructions_References" ManuallyRouted="false" />
+        <AssociationConnector Association="XWingsFactoryModel.FK_AssemblyInstructionsDetail_AssemblyInstructions" ManuallyRouted="false" />
+        <AssociationConnector Association="XWingsFactoryModel.FK_OperationParts_AssemblyInstructionsDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="XWingsFactoryModel.FK_FinalProduct_LOPDetails" ManuallyRouted="false" />
+        <AssociationConnector Association="XWingsFactoryModel.FK_FinalProduct_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="XWingsFactoryModel.FK_FinalProductDetails_FinalProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="XWingsFactoryModel.FK_FinalProductDetails_IntermediateProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="XWingsFactoryModel.FK_IntermediateProduct_LOPDetails" ManuallyRouted="false" />
+        <AssociationConnector Association="XWingsFactoryModel.FK_IntermediateProduct_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="XWingsFactoryModel.FK_LOP_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="XWingsFactoryModel.FK_LOPDetails_LOP" ManuallyRouted="false" />
+        <AssociationConnector Association="XWingsFactoryModel.FK_OperationParts_References" ManuallyRouted="false" />
+        <AssociationConnector Association="XWingsFactoryModel.FK_OrdersDetail_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="XWingsFactoryModel.FK_References_ReferenceTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="XWingsFactoryModel.FK_Structure_References" ManuallyRouted="false" />
+        <AssociationConnector Association="XWingsFactoryModel.FK_Structure_References1" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.Planets" Width="1.5" PointX="7.375" PointY="13.75" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.DefinedRoutes" Width="1.5" PointX="9.625" PointY="31.875" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.Filiations" Width="1.5" PointX="5.125" PointY="17" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.LogUsers" Width="1.5" PointX="14.875" PointY="15.375" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.MilitaryCamps" Width="1.5" PointX="9.625" PointY="22.375" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.PlanetRoutes" Width="1.5" PointX="9.625" PointY="15" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.Regions" Width="1.5" PointX="2.875" PointY="20.5" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.Routes" Width="1.5" PointX="7.375" PointY="23.625" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.RouteTypes" Width="1.5" PointX="5.125" PointY="24" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.Sectors" Width="1.5" PointX="5.125" PointY="20.25" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.SpaceShipCategories" Width="1.5" PointX="5.125" PointY="27.125" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.SpaceShips" Width="1.5" PointX="9.625" PointY="18.875" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.SpaceShipTypes" Width="1.5" PointX="7.375" PointY="19.75" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.Species" Width="1.5" PointX="2.125" PointY="17" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.UserCategories" Width="1.5" PointX="10.375" PointY="28.625" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.UserRanks" Width="1.5" PointX="10.375" PointY="26.125" />
+        <EntityTypeShape EntityType="XWingsFactoryModel.Users" Width="1.5" PointX="12.625" PointY="14.375" />
+        <AssociationConnector Association="XWingsFactoryModel.FK_DefinedRoutes_Routes" />
+        <AssociationConnector Association="XWingsFactoryModel.FK_Planets_Filiations" />
+        <AssociationConnector Association="XWingsFactoryModel.FK_SpaceShipTypes_Filiations" />
+        <AssociationConnector Association="XWingsFactoryModel.FK_LogUsers_Users" />
+        <AssociationConnector Association="XWingsFactoryModel.FK_MilitaryCamps_Planets" />
+        <AssociationConnector Association="XWingsFactoryModel.FK_PlanetRoutes_Planets" />
+        <AssociationConnector Association="XWingsFactoryModel.FK_PlanetRoutes_Routes" />
+        <AssociationConnector Association="XWingsFactoryModel.FK_Planets_Sectors" />
+        <AssociationConnector Association="XWingsFactoryModel.FK_Planets_Species" />
+        <AssociationConnector Association="XWingsFactoryModel.FK_Users_Planets" />
+        <AssociationConnector Association="XWingsFactoryModel.FK_Sectors_Regions" />
+        <AssociationConnector Association="XWingsFactoryModel.FK_Routes_RouteTypes" />
+        <AssociationConnector Association="XWingsFactoryModel.FK_SpaceShipTypes_SpaceShipCategories" />
+        <AssociationConnector Association="XWingsFactoryModel.FK_SpaceShips_SpaceShipTypes" />
+        <AssociationConnector Association="XWingsFactoryModel.FK_Users_Species" />
+        <AssociationConnector Association="XWingsFactoryModel.FK_Users_UserCategories" />
+        <AssociationConnector Association="XWingsFactoryModel.FK_Users_UserRanks" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

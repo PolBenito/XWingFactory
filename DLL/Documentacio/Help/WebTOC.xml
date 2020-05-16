@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="029c60da-62a8-490d-ac01-1575dcee9457" Title="AccesDades_BC" Url="html/27690d63-5f40-a1a7-9bcd-78828d2eeba5.htm">
+    <HelpTOCNode Id="48bd4530-1df8-4c06-bcc8-0ed2b2873b4b" Title="DataAccess (Clase)" Url="html/5b5ea8f5-c914-44be-8eaf-36a1ea2b798e.htm">
+      <HelpTOCNode Title="DataAccess (Constructor )" Url="html/d3a62859-bdc4-81ef-93c4-e7c128ec419c.htm" />
+      <HelpTOCNode Id="66d85ba6-db73-4581-9b33-fd9fdce6a616" Title="DataAccess (M&#233;todos)" Url="html/5da78930-56a7-3c60-4cbb-32728e053d39.htm">
+        <HelpTOCNode Title="Actualitzar (M&#233;todo )" Url="html/03766843-f40f-4c7f-62a4-96253cf83563.htm" />
+        <HelpTOCNode Title="Executa (M&#233;todo )" Url="html/e1fdd48f-baea-dd0e-ddaa-094015eeb55f.htm" />
+        <HelpTOCNode Title="PortarPerConsulta (M&#233;todo )" Url="html/e4f5d670-0062-be9a-5372-67b35e623761.htm" />
+        <HelpTOCNode Title="PortarPerId (M&#233;todo )" Url="html/52acc5eb-dde5-b5a4-3f1f-fa9c460b7059.htm" />
+        <HelpTOCNode Title="PortarTaula (M&#233;todo )" Url="html/bbcc4382-cd15-3a1f-597b-f82aff15397f.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

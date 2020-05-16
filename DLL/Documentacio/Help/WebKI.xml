@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="AccesDades_BC namespace" Url="html/27690d63-5f40-a1a7-9bcd-78828d2eeba5.htm" />
+  <HelpKINode Title="AccesDades_BC.DataAccess class" Url="html/5b5ea8f5-c914-44be-8eaf-36a1ea2b798e.htm" />
+  <HelpKINode Title="Actualitzar method" Url="html/03766843-f40f-4c7f-62a4-96253cf83563.htm" />
+  <HelpKINode Title="DataAccess class">
+    <HelpKINode Title="DataAccess (Clase)" Url="html/5b5ea8f5-c914-44be-8eaf-36a1ea2b798e.htm" />
+    <HelpKINode Title="constructor" Url="html/d3a62859-bdc4-81ef-93c4-e7c128ec419c.htm" />
+    <HelpKINode Title="methods" Url="html/5da78930-56a7-3c60-4cbb-32728e053d39.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DataAccess.Actualitzar method" Url="html/03766843-f40f-4c7f-62a4-96253cf83563.htm" />
+  <HelpKINode Title="DataAccess.DataAccess constructor" Url="html/d3a62859-bdc4-81ef-93c4-e7c128ec419c.htm" />
+  <HelpKINode Title="DataAccess.Executa method" Url="html/e1fdd48f-baea-dd0e-ddaa-094015eeb55f.htm" />
+  <HelpKINode Title="DataAccess.PortarPerConsulta method" Url="html/e4f5d670-0062-be9a-5372-67b35e623761.htm" />
+  <HelpKINode Title="DataAccess.PortarPerId method" Url="html/52acc5eb-dde5-b5a4-3f1f-fa9c460b7059.htm" />
+  <HelpKINode Title="DataAccess.PortarTaula method" Url="html/bbcc4382-cd15-3a1f-597b-f82aff15397f.htm" />
+  <HelpKINode Title="Executa method" Url="html/e1fdd48f-baea-dd0e-ddaa-094015eeb55f.htm" />
+  <HelpKINode Title="PortarPerConsulta method" Url="html/e4f5d670-0062-be9a-5372-67b35e623761.htm" />
+  <HelpKINode Title="PortarPerId method" Url="html/52acc5eb-dde5-b5a4-3f1f-fa9c460b7059.htm" />
+  <HelpKINode Title="PortarTaula method" Url="html/bbcc4382-cd15-3a1f-597b-f82aff15397f.htm" />
+</HelpKI>
